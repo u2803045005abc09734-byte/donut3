@@ -1,0 +1,23 @@
+{
+	"schemaVersion": 1,
+	"id": "donutclient",
+	"version": "${version}",
+	"name": "Donut Client",
+	"description": "Client-side utility mod with a ClickGUI. Modules: StorageFinder and SpawnerFinder.",
+	"authors": [
+		"You"
+	],
+	"license": "MIT",
+	"environment": "client",
+	"entrypoints": {
+		"client": [
+			"com.donutclient.DonutClient"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.16.0",
+		"minecraft": "~1.21.11",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}
